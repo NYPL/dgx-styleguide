@@ -1,0 +1,162 @@
+/******** Typography - Milo Sections ********/
+.blog_title, .blog_quote {
+  width:433px;
+  margin-bottom:100px;
+}
+.body_text-milo {
+  width:433px;
+}
+.blog_listing, .banner {
+  width:326px;
+  margin-bottom:100px;
+}
+.maganav {
+  width:326px;
+}
+aside.milo {
+  width:472px;
+}
+/******** Font System / Content ********/
+.font_system_content h1 {
+  font-size:41px;
+  line-height: 53px;
+  letter-spacing: -0.015em;
+  margin:0 0 0.28em;
+  width:408px;
+  display:inline-block;
+}
+
+/******** Blog Title ********/
+.blog_title h1 {
+  font-family:'MiloSlab-Light', serif;
+  font-weight:100;
+  font-size:46px;
+  line-height:100%;
+  margin:0 0 0.4em;
+}
+.blog_title .tagline {
+  font-family:'Kievit-Light', sans-serif;
+  font-size:18px;
+  line-height:24.28px;
+  font-weight:100;
+  letter-spacing:-0.02em;
+  margin:0;
+}
+.blog_title .tagline span {
+  font-family:'Kievit-Book', sans-serif;
+  font-weight:400;
+}
+.blog_title .date {
+  font-family:'Kievit-Book', sans-serif;
+  font-weight:400;
+  text-transform: uppercase;
+  font-size:14px;
+  line-height:24px;
+  letter-spacing:0.07em;
+  margin:0;
+}
+
+/******** Blog Quote ********/
+.blog_quote h1 {
+  font-family: 'MiloSlab-LightItalic', serif;
+  font-weight:100;
+  font-style:italic;
+  line-height:100%;
+  margin:0 0 0.4em;
+  font-size:46px;
+}
+.blog_quote hr {
+  border:0;
+  margin:-1em 0 1.4em;
+  background:#000;
+  height:2px;
+  width:66px;
+}
+
+/******** Body Text ********/
+.body_text-milo p {
+  font-family: 'MiloSlab-Regular', serif;
+  font-weight:400;
+  font-size:16px;
+  text-indent:72px;
+  line-height:28px;
+}
+.body_text-milo p a {
+  color:#1c8cbb;
+  text-decoration: underline;
+}
+.body_text-milo p a.publication {
+  font-family: 'MiloSlab-LightItalic', serif;
+  font-weight:100;
+  font-style:italic;
+}
+
+/******** Blog Listing ********/
+.blog_listing h1 {
+  font-family: 'MiloSlab-Light', serif;
+  font-weight:100;
+  font-size:36px;  
+  line-height: 100%;
+  margin:0 0 0.4em;
+}
+.blog_listing p {
+  font-family:'Kievit-Book', sans-serif;
+  font-weight:400;
+  font-size:15px;
+  line-height:22px;
+}
+
+/******** Banner ********/
+.banner h1 {
+  font-family: 'MiloSlab-Light', serif;
+  font-weight:100;
+  font-size:36px;  
+  line-height: 100%;
+  margin:0 0 0.6em;
+}
+.banner h1 span {
+  display:block;
+}
+.banner .date {
+  font-family: 'Kievit-Medium', sans-serif;
+  font-weight:500;
+  font-size:16px;
+  letter-spacing: 0.01em;
+  line-height:20px;
+  margin:0;
+}
+.banner .loc {
+  font-family: 'Kievit-Book', sans-serif;
+  font-weight:400;
+  font-size:14px;
+  letter-spacing: 0.01em;
+  line-height:20px;
+  margin:0;
+}
+
+/******** Maganav ********/
+.maganav {
+  width: 292px;
+}
+.maganav h1 {
+  font-family: 'MiloSlab-Light', serif;
+  font-weight:100;
+  font-size:30px;  
+  line-height: 100%;
+  margin:0 0 0.8em;
+}
+.maganav .category {
+  font-family: 'Kievit-Bold', sans-serif;
+  font-weight:700;
+  font-size:12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom:30px;
+  display:block;
+}
+.maganav p {
+  font-family: 'Kievit-Book', sans-serif;
+  font-weight:400;
+  font-size:15px;
+  line-height:22px;
+}

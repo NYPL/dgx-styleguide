@@ -1,0 +1,268 @@
+@font-face {
+  font-family: 'MiloSlab-Light';
+  src: url('http://ux-static.nypl.org/milo-web/milo-slab-pro-light/MiloSlabWebPro-Light.woff') format('woff'),
+       url('http://ux-static.nypl.org/milo-web/milo-slab-pro-light/MiloSlabWebPro-Light.eot') format('eot');
+  font-weight:100;
+}
+@font-face {
+  font-family: 'MiloSlab-LightItalic';
+  src: url('http://ux-static.nypl.org/milo-web/milo-slab-pro-light-italic/MiloSlabWebPro-LightItalic.woff') format('woff'),
+       url('http://ux-static.nypl.org/milo-web/milo-slab-pro-light-italic/MiloSlabWebPro-LightItalic.eot') format('eot');
+  font-weight:100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'MiloSlab-Regular';
+  src: url('http://ux-static.nypl.org/milo-web/milo-slab-pro-regular/MiloSlabWebPro.woff') format('woff'),
+       url('http://ux-static.nypl.org/milo-web/milo-slab-pro-regular/MiloSlabWebPro.eot') format('eot');
+  font-weight:400;
+}
+@font-face {
+  font-family: 'MiloSlab-RegularItalic';
+  src: url('http://ux-static.nypl.org/milo-web/milo-slab-pro-regular-italic/MiloSlabWebPro-Italic.woff') format('woff'),
+       url('http://ux-static.nypl.org/milo-web/milo-slab-pro-regular-italic/MiloSlabWebPro-Italic.eot') format('eot');
+  font-weight:400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'MiloSlab-Medium';
+  src: url('http://ux-static.nypl.org/milo-web/milo-slab-pro-medium/MiloSlabWebPro-Medium.woff') format('woff'),
+       url('http://ux-static.nypl.org/milo-web/milo-slab-pro-medium/MiloSlabWebPro-Medium.eot') format('eot');
+  font-weight:500;
+}
+@font-face {
+  font-family: 'Kievit-Light';
+  src: url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-Light.woff') format('woff'),
+       url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-Light.eot') format('eot');
+  font-weight:100;
+}
+@font-face {
+  font-family: 'Kievit-Book';
+  src: url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-Book.woff') format('woff'),
+       url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-Book.eot') format('eot');
+  font-weight:400;
+}
+@font-face {
+  font-family: 'Kievit-BookItalic';
+  src: url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-BookIta.woff') format('woff'),
+       url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-BookIta.eot') format('eot');
+  font-weight:400;
+  font-style:italic;
+}
+@font-face {
+  font-family: 'Kievit-Medium';
+  src: url('../fonts/KievitWeb-Medi.woff') format('woff');
+  font-weight:500;
+}
+@font-face {
+  font-family: 'Kievit-MediumItalic';
+  src: url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-Medi.woff') format('woff'),
+       url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-Medi.eot') format('eot');
+  font-weight:500;
+  font-style:italic;
+}
+@font-face {
+  font-family: 'Kievit-Bold';
+  src: url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-Bold.woff') format('woff'),
+       url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-Bold.eot') format('eot');
+  font-weight:700;
+}
+
+/******** Font helper classes ********/
+.miloslab-light {
+  font-family: 'MiloSlab-Light', serif;
+  font-weight:100;
+}
+.miloslab-light_italic {
+  font-family: 'MiloSlab-LightItalic', serif;
+  font-weight:100;
+  font-style:italic;
+}
+.miloslab-regular {
+  font-family: 'MiloSlab-Regular', serif;
+  font-weight:400;
+}
+.miloslab-regular_italic {
+  font-family: 'MiloSlab-RegularItalic', serif;
+  font-weight:400;
+  font-style: italic;
+}
+.miloslab-medium {
+  font-family: 'MiloSlab-Medium', serif;
+  font-weight:500;
+}
+.kievit-book {
+  font-family: 'Kievit-Book', serif;
+  font-weight:400;
+}
+.kievit-book_italic {
+  font-family: 'Kievit-BookItalic', serif;
+  font-weight:400;
+  font-style:italic;
+}
+.kievit-medium {
+  font-family: 'Kievit-Medium', serif;
+  font-weight:500;
+}
+.kievit-medium_italic {
+  font-family: 'Kievit-MediumItalic', serif;
+  font-weight:500;
+  font-style: italic;
+}
+.kievit-bold {
+  font-family: 'Kievit-Bold', serif;
+  font-weight:700;
+}
+
+/******** Style guide layout ********/
+body {
+  width: 1920px;
+  padding: 84px 80px;
+  box-sizing: border-box;
+  margin: 0;
+}
+body * {
+  text-rendering:geometricPrecision;
+}
+#style_guide > nav {
+  width:350px;
+  display:inline-block;
+}
+#style_guide > nav h1 {
+  margin:0;
+  color:#898070;
+  font-family: 'Kievit-Book', sans-serif;
+  font-weight:400;
+  font-size:34px;
+  line-height:37px;
+  letter-spacing:0.05em;
+  margin-bottom:2em;
+}
+#style_guide > nav h1 span {
+  font-family: 'Kievit-Medium', sans-serif;
+  font-weight:500;
+  display:block;
+}
+#style_guide > nav ul {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+#style_guide > nav ul li {
+  position:relative;
+  padding:18px 0 40px;
+  font-family:'Kievit-Medium', sans-serif;
+  font-weight:500;
+  font-size:18px;
+  line-height:13.27px;
+}
+#style_guide > nav ul li:after {
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  height: 2px;
+  width:33px;
+  background:#b8b8b8;
+}
+#style_guide > nav ul li.active:after {
+  background:#e4382c;
+}
+#style_guide > nav ul li a {
+  color: #b8b8b8;
+  text-decoration: none;
+}
+#style_guide > nav ul li.active a {
+  color:#e4382c;
+}
+#style_guide > nav > p {
+  font-family: 'Kievit-Book', sans-serif;
+  font-weight:400;
+  font-size:15px;
+  line-height: 26px;
+  width:265px;
+  margin:100px 0 0;
+}
+#style_guide article.half {
+  width:720px;
+  display:inline-block;
+  vertical-align: top;
+  margin-right:96px;
+}
+#style_guide aside.half {
+  width:668px;
+  display:inline-block;
+  vertical-align: top;
+  margin-right:32px;
+}
+#style_guide .full {
+  width:1288px;
+  margin-right:0;
+}
+#style_guide .full section {
+  width:1054px;
+  margin-bottom:100px;
+  margin-left:-4px;
+}
+#style_guide aside {
+  display:inline-block;
+}
+#style_guide section {
+  display:inline-block;
+  vertical-align: top;
+}
+.content_label {
+  font-family: 'Kievit-Book', sans-serif;
+  font-size: 12px;
+  line-height:20px;
+  color: #e4382c;
+  display:inline-block;
+  vertical-align: top;
+}
+#style_guide .half .content_label, #style_guide .full .content_label {
+  width:234px;
+}
+#style_guide aside .content_label {
+  width:98px;
+}
+
+.tooltip { 
+  display: none;
+  position: absolute;
+  z-index: 99;
+  padding:10px 12px;
+  background: #e4382c;
+  width: 220px;
+  color:#fff;
+  font-family: 'Kievit-Light', sans-serif;
+  font-size: 14px;
+  line-height:20px;
+  font-weight:100;
+  -ms-transform:translateY(calc(-100% - 140px));
+  -moz-transform:translateY(calc(-100% - 14px));
+  -webkit-transform:translateY(calc(-100% - 14px));
+  transform:translateY(calc(-100% - 14px));
+}
+.tooltip:after {
+  content: '';
+  background: transparent url(../img/tooltip-arrow.png) no-repeat bottom left;
+  width: 11px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.tooltip .left {
+  float:left;
+  display:block;
+  clear:right;
+  margin-right:40px;
+}
+.tooltip .right {
+  float:right;
+  font-family:'Kievit-Book', sans-serif;
+  font-weight:400;
+}
+.tooltip.show-tooltip { display: block;}

@@ -1,0 +1,145 @@
+/******** Color Palettes ********/
+.color_palette {
+  margin-top:158px;
+}
+.color_section_1 {
+  width:386px;
+  height:336px;
+  padding-right:172px;
+}
+.color_section_2 {
+  width:730px;
+  height:728px;
+}
+#hex_ED1C24 {
+  background-color: #ed1c24;
+}
+#hex_2799C5 {
+  background-color:#2799c5;
+}
+#hex_EBE928 {
+  background-color:#EBE928;
+}
+#hex_FFFE92 {
+  background-color:#FFFE92;
+}
+#hex_837E77 {
+  background-color:#837E77;
+}
+#hex_A3A19E {
+  background-color:#A3A19E;
+}
+#hex_E73621 {
+  background-color:#E73621;
+}
+#hex_52174F {
+  background-color:#52174F;
+}
+#hex_72256D {
+  background-color:#72256D;
+}
+#hex_437529 {
+  background-color:#437529;
+}
+#hex_579B34 {
+  background-color:#579B34;
+}
+#hex_047074 {
+  background-color:#047074;
+}
+#hex_00989E {
+  background-color:#00989E;
+}
+#hex_595141 {
+  background-color:#595141;
+}
+#hex_726958 {
+  background-color:#726958;
+}
+#hex_655C4C {
+  background-color:#655C4C;
+}
+#hex_89806F {
+  background-color:#89806F;
+}
+#hex_9E0B0B {
+  background-color:#9E0B0B;
+}
+#hex_CF1D1E {
+  background-color:#CF1D1E;
+}
+#hex_1980A9 {
+  background-color:#1980A9;
+}
+#hex_1DA1D4 {
+  background-color:#1DA1D4;
+}
+#hex_54514A {
+  background-color:#54514A;
+}
+
+.palette-single {
+  text-align:center;
+  width:100px;
+  display:inline-block;
+  margin: 0 88px 228px 0;
+  vertical-align: middle;
+}
+.palette-single .color {
+  width:88px;
+  height:88px;
+  border-radius:44px;
+  margin:0 auto 22px;
+}
+.palette-single p, .palette-double p {
+  font-family:'Kievit-Bold', sans-serif;
+  text-transform:uppercase;
+  font-weight:700;
+  color:#898070;
+}
+.palette-single .title {
+  font-size:15px;
+  margin: 0;
+}
+.palette-single .name {
+  font-size:11px;
+  margin: 6px 0 18px;
+}
+.palette-single .hex {
+  font-family:'Kievit-Medium', sans-serif;
+  font-weight:500;
+  font-size:12px;
+  margin:0;
+}
+.palette-double {
+  text-align:center;
+  width:88px;
+  display:inline-block;
+  margin:0 70px 43px 0;
+  vertical-align: middle;
+}
+.palette-double .color {
+  width:70px;
+  height:70px;
+  border-radius:35px;
+  overflow:hidden;
+  margin: 0 auto 22px;
+}
+.palette-double .color .half {
+  width:70px;
+  height:35px;
+}
+.palette-double .color .full {
+  width:70px;
+  height:70px;
+}
+.palette-double .name {
+  font-size:12px;
+  margin:0 0 10px;
+}
+.palette-double .hex {
+  font-family:'Kievit-Medium', sans-serif;
+  font-weight:500;
+  font-size:12px;
+  margin:0 0 10px;
+}

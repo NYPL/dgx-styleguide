@@ -1,0 +1,153 @@
+/******** Typography - Kievit Sections ********/
+.medium_listing, .small_listing {
+  width:279px;
+  margin-bottom:100px;
+}
+.body_text-kievit {
+  width:279px;
+}
+aside.kievit {
+  width:472px;
+}
+aside.kievit section {
+  margin-bottom:110px;
+}
+header {
+  position:relative;
+}
+
+
+/******** Font System / UI ********/
+.font_system_ui h1 {
+  font-size:41px;
+  line-height: 53px;
+  letter-spacing: -0.015em;
+  margin:0 0 0.28em;
+  width:408px;
+  display:inline-block;
+}
+
+/******** Global Nav ********/
+.global_nav ul {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+.global_nav ul li {
+  display:inline-block;
+  margin-right:22px;
+}
+.global_nav ul li a {
+  font-family:'Kievit-Book', sans-serif;
+  font-size:18px;
+  font-weight:400;
+  color:#000;
+  text-decoration: none;
+}
+.global_nav ul li #search {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 32px;
+  height: 23px;
+  background: url(../img/icon-search.png) no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/******** Medium & Small Listings ********/
+.medium_listing h1, .small_listing h2 {
+  font-family:'Kievit-Book', sans-serif;
+  font-weight:400;
+  letter-spacing:-0.01em;
+}
+.medium_listing h1 {
+  font-size:26px;
+  line-height:28px;
+  margin:0 0 0.4em;
+}
+.medium_listing h1 >  span {
+  display:block;
+}
+.small_listing h2 {
+  font-size:20px;
+  line-height:100%;
+  margin:0 0 0.6em;
+}
+.medium_listing .date, .small_listing .date {
+  font-family:'Kievit-Medium', sans-serif;
+  font-size:13px;
+  line-height:16.21px;
+  font-weight:500;
+  letter-spacing:0.04em;
+  margin:0 0 0.6em;
+  text-transform: uppercase;
+}
+.medium_listing .loc {
+  font-family:'Kievit-Book', sans-serif;
+  font-weight:400;
+  margin:0;
+  font-size:14px;
+  line-height:20.41px;
+}
+
+/******** Body Text ********/
+.body_text-kievit p {
+  font-family: 'Kievit-Book', sans-serif;
+  font-weight:400;
+  font-size:15px;
+  line-height:20px;
+  letter-spacing: 0.01em;
+  margin:0;
+}
+
+/******** Podcast ********/
+.podcast h1 {
+  font-family: 'Kievit-Book', sans-serif;
+  font-weight:400;
+  font-size:26px;
+  line-height:30px;
+  letter-spacing: -0.02em;
+  margin:0 0 0.4em;
+}
+.podcast .tagline {
+  font-family:'Kievit-Medium', sans-serif;
+  font-size:13px;
+  line-height:16.21px;
+  font-weight:500;
+  letter-spacing:0.04em;
+  margin:0 0 0.6em;
+  text-transform: uppercase;
+  color: #ed1c24;
+  padding-left:22px;
+  background: url(../img/icon-podcast.png) no-repeat;
+}
+
+/******** Lookup ********/
+.lookup img.thumb {
+  display:inline-block;
+  vertical-align: middle;
+  width:48px;
+  height:48px;
+  border-radius:24px;
+  margin-right:15px;
+}
+.lookup > div { 
+  display:inline-block;
+  vertical-align: middle;
+}
+.lookup > div .name {
+  font-family: 'Kievit-Medium', sans-serif;
+  font-weight:500;
+  margin:0 0 2px;
+  font-size:18px;
+  line-height:18px;
+}
+.lookup > div .title {
+  font-family: 'Kievit-Book', sans-serif;
+  font-weight:400;
+  margin:0;
+  font-size:14px;
+  line-height:18px;
+}
+

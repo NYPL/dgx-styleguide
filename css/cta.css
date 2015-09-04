@@ -1,0 +1,246 @@
+/******** Call to Action, Inputs ********/
+.large_icon, .dropdown_input, .header_button, .nav_buttons {
+  width:279px;
+}
+.button_style {
+  width:482px;
+  margin-bottom:144px;
+}
+.large_icon {
+  margin-bottom:100px;
+}
+.dropdown_input {
+  margin-bottom:68px;
+}
+.header_button {
+  margin-bottom:72px;
+}
+aside.call_to_action{
+  width:568px;
+}
+.call_to_action.half, aside.call_to_action {
+  margin-top:158px;
+}
+
+
+/******** Button Style ********/
+.btn {
+  font-family:'Kievit-Book', sans-serif;
+  font-weight:400;
+  font-size:17px;
+  color:#2799c5;
+  padding:13px 12px 11px;
+  border:solid 2px #2799c5;
+  border-radius:3px;
+  background:transparent;
+  cursor:pointer;
+  outline:0;
+}
+.btn:hover, .btn.btn_hover {
+  color:#fff;
+  background: #2799c5;
+}
+.btn:disabled, .btn:disabled:hover {
+  color:#93cce2;
+  border-color:#93cce2;
+  background:transparent;
+}
+.button_style .btn {
+  margin-right:20px;
+}
+
+/******** Button Styles Inverse ********/
+.btn_inverse {
+  color:#fff;
+  border-color:#fff;
+}
+.btn_inverse:hover, .btn_inverse.btn_hover {
+  color:#2799c5;
+  background:#fff;
+}
+.button_style-cont {
+  background:#2799c5;
+  padding:48px 133px;
+  margin-top:-48px;
+  margin-bottom: 24px;
+  width: 568px;
+  box-sizing: border-box;
+}
+.button_style-cont .btn {
+  margin-right:47px;
+}
+.button_style-cont .btn:last-child {
+  margin-right:0;
+}
+
+/******** Large Icon ********/
+.btn_large {
+  width:72px;
+  height:72px;
+  border:0;
+  outline:0;
+  cursor:pointer;
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.btn_play {
+  background:url(../img/buttons-circle.png) no-repeat transparent;
+  background-position:0 0;
+}
+.btn_search {
+  background:url(../img/buttons-circle.png) no-repeat transparent;
+  background-position:-144px 0;
+}
+.large_icon button{
+  margin-right:40px;
+}
+
+/******** Large Icon Inverse ********/
+.btn_play-inverse {
+  background:url(../img/buttons-circle.png) no-repeat transparent;
+  background-position:-72px 0;
+}
+.btn_search-inverse {
+  background:url(../img/buttons-circle.png) no-repeat transparent;
+  background-position:-216px 0;
+}
+.vid_bg, .search_bg {
+  width:270px;
+  height:214px;
+  display:inline-block;
+  position:relative;
+  vertical-align: middle;
+  margin-bottom:114px;
+}
+.vid_bg .btn_play-inverse, .search_bg .btn_search-inverse {
+  position: absolute;
+}
+.vid_bg {
+  background: url(../img/placeholder-vid_bg.jpg) no-repeat;
+  margin-right:23px;
+}
+.vid_bg .btn_play-inverse {
+  top: 50%;
+  left: 50%;
+  margin-top: -36px;
+  margin-left: -36px;
+}
+.search_bg {
+  background: url(../img/placeholder-search_bg.jpg) no-repeat;
+}
+.search_bg .btn_search-inverse {
+  top:50%;
+  left:50%;
+  margin-top:-36px;
+  margin-left:18px;
+}
+/******** Dropdown / Input Field ********/
+.styled select {
+  outline:none;
+  background: transparent;
+  font-size: 16px;
+  border: 0;
+  height: 34px; 
+  width:214px;
+  font-family:'Kievit-Book', sans-serif;
+  font-weight:400;
+  color:#a59d8e;
+} 
+.styled {
+  outline:none;
+  height: 34px; 
+  width:198px;
+  border: 2px solid #a59d8e;
+  border-radius: 3px;
+  overflow: hidden;
+  background: url(../img/dropdown.png) 95% / 20% no-repeat transparent;
+  background-size:6px 4px;
+  margin-bottom:34px;
+  padding:0 4px;
+  box-sizing:border-box;
+}
+input[type="text"] {
+  outline:none;
+  height: 34px; 
+  width:198px;
+  border: 2px solid #a59d8e;
+  border-radius: 3px;
+  font-family:'Kievit-BookItalic', sans-serif;
+  font-size:16px;
+  font-style: italic;
+  color:#a59d8e;
+  padding:1px 10px 0px;
+  box-sizing:border-box;
+}
+
+/******** Header Button ********/
+.btn_header {
+  color:#fff;
+  border:0;
+  border-radius:3px;
+  background: #e4382c;
+  font-family:'Kievit-Medium', sans-serif;
+  font-weight:500;
+  text-transform: uppercase;
+  font-size:12px;
+  padding:11px 20px 9px;
+  cursor:pointer;
+}
+
+/******** Nav ********/
+.btn_prev, .btn_next {
+  width:28px;
+  height:28px;
+  border:0;
+  outline:0;
+  cursor:pointer;
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.btn_prev {
+  background:url(../img/buttons-nav.png) no-repeat transparent;
+  background-position:0 0;
+}
+.btn_next {
+  background:url(../img/buttons-nav.png) no-repeat transparent;
+  background-position:-28px 0;
+}
+.nav_buttons .btn_prev, .nav_buttons .btn_next{
+  margin-right:11px;
+}
+
+/******** More Buttons ********/
+.btn_more {
+  border:solid 2px #a59d8e;
+  border-radius:13px;
+  height:26px;
+  min-width:26px;
+  background:url(../img/ellipsis.png) no-repeat transparent;
+  font-family:'Kievit-Medium', sans-serif;
+  font-weight:500;
+  color:#a59d8e;
+  font-size:11px;
+  text-transform:uppercase;
+}
+.btn_more.more_sm {
+  background-position:center center;
+  background-size:50%;
+}
+.btn_more.more_lg {
+  background-position: 12px center;
+  padding: 5px 12px 3px 34px;
+  height: 32px;
+  border-radius: 16px;
+}
+.buttons_more {
+  margin-left:-100px;
+}
+.buttons_more > div {
+  display:inline-block;
+}
+.buttons_more .btn_more {
+  display:block;
+  margin-bottom:23px;
+}

@@ -1,0 +1,129 @@
+/******** Eyebrow ********/
+.eyebrow {
+  margin-top:132px;
+}
+
+/******** Global Nav ********/
+.global_nav ul {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+.global_nav ul li {
+  display:inline-block;
+  margin-right:22px;
+}
+.global_nav ul li a {
+  font-family:'Kievit-Book', sans-serif;
+  font-size:18px;
+  font-weight:400;
+  color:#000;
+  text-decoration: none;
+}
+.global_nav ul li #search {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 32px;
+  height: 23px;
+  background: url(../img/icon-search.png) no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+.global_nav ul li.active a {
+  font-family:'Kievit-Bold', sans-serif;
+  font-weight:700;
+  color:#e4382c;
+  border-top: solid 2px;
+  padding-top: 8px;
+}
+
+/******** Main Banner Selector ********/
+.main_banner_selector ul {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+.main_banner_selector ul li {
+  display:inline-block;
+  margin-right:22px;
+  width:120px;
+  border-top:solid 2px;
+  color:#b2b2b2;
+}
+.main_banner_selector ul li a {
+  font-family:'Kievit-Bold', sans-serif;
+  font-weight:700;
+  font-size:10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#b2b2b2;
+  width:70px;
+  display:inline-block;
+  vertical-align: top;
+  padding-top:13px;
+}
+.main_banner_selector ul li.active, .main_banner_selector ul li.active a {
+  color:#000;
+}
+  
+/******** Blog Quote ********/
+.blog_quote h1 {
+  font-family: 'MiloSlab-LightItalic', serif;
+  font-weight:100;
+  font-style:italic;
+  line-height:100%;
+  margin:0 0 0.4em;
+  font-size:46px;
+}
+.blog_quote hr {
+  border:0;
+  margin:-1em 0 1.4em;
+  background:#000;
+  height:2px;
+  width:66px;
+}
+
+/******** Mega Nav & Sub Menu ********/
+.mega_nav, .sub_menu {
+  font-family:'Kievit-Medium', sans-serif;
+  font-weight:500;
+}
+.mega_nav ul, .sub_menu ul {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+.mega_nav {
+  color:#333;
+}
+.sub_menu {
+  color:#000;
+}
+.mega_nav .title, .sub_menu .title {
+  font-size:20px;
+  line-height:28px;
+  border-top:solid 2px;
+  display:block;
+  width:134px;
+  padding-top:8px;
+  margin-bottom:24px;
+}
+.mega_nav ul li, .sub_menu ul li {
+  margin-bottom:8px;
+}
+.mega_nav ul li a, .sub_menu ul li a {
+  text-decoration:none;
+}
+.mega_nav ul li a {
+  color:#333;
+}
+.sub_menu {
+  text-align:right;
+}
+.sub_menu ul li a{ 
+  color:#000;
+}
+.sub_menu .title {
+  border-color:#666;
+}

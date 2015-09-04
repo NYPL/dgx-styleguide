@@ -1,0 +1,184 @@
+/******** Iconography ********/
+.iconography {
+  margin-top:120px;
+}
+.large_icons {
+  margin:-20px -4px auto 0;
+}
+.small_icons {
+  margin:-4px -4px auto 0;
+  padding-bottom:70px;
+}
+.lion_mark {
+  margin:-56px 0 118px;
+  width:482px;
+}
+.sub_brand {
+  margin-top:-14px;
+}
+
+/******** Large & Small Icons ********/
+.icon_lg, .icon_sm {
+  display:block;
+}
+.icon_lg {
+  width:72px;
+  height:66px;
+  background:url(../img/icons-large.png) no-repeat transparent;
+}
+.icon-lib {
+  background-position:0 0;
+}
+.icon-card {
+  background-position:-72px 0;
+}
+.icon-board {
+  background-position:-144px 0;
+}
+.icon-easel {
+  background-position:-216px 0;
+}
+.large_icons .icon_lg {
+  display:inline-block;
+  vertical-align: middle;
+  margin-right:190px;
+}
+.large_icons .icon_lg:last-child {
+  margin-right:0;
+}
+.icon_sm {
+  width:38px;
+  height:30px;
+  background:url(../img/icons-small.png) no-repeat transparent;
+}
+.icon-speech {
+  background-position:0 0;
+}
+.icon-book {
+  background-position:-38px 0;
+}
+.icon-headphones {
+  background-position:-76px 0;
+}
+.icon-video {
+  background-position:-114px 0;
+}
+.small_icons .icon_sm {
+  display:inline-block;
+  vertical-align: middle;
+  margin-right:230px;
+}
+.small_icons .icon_sm:last-child {
+  margin-right:0;
+}
+
+/******** Lion Mark ********/
+.icon-lion {
+  display:block;
+  background:url(../img/icon-lion.png) no-repeat;
+}
+.icon-lion_lg {
+  width:88px;
+  height:88px;
+}
+.icon-lion_sm {
+  background-size:88px 44px;
+  width:44px;
+  height:44px;
+}
+.icon-lion_sm.icon-lion_inverse {
+  background-position:-44px 0;
+}
+.icon-lion_lg.icon-lion_inverse {
+  background-position:-88px 0;
+}
+.lion_inverse-bg {
+  background:#e4382c;
+}
+/* styleguide-specific styles */
+.lion_mark > div {
+  display:inline-block;
+  vertical-align: top;
+  padding:22px 27px;
+  width:88px;
+  height:190px;
+}
+.lion_mark > div .icon-lion_lg {
+  margin-bottom:40px;
+}
+.lion_mark > div:last-of-type .content_label {
+  width: 100px !important;
+  margin: 25px 0px 40px;
+}
+
+/******** Sub Brand ********/
+.icon-subbrand {
+  display:block;
+  background:url(../img/icons-subbrand.png) no-repeat;
+  width:44px;
+  height:49px;
+}
+.icon-nypllive {
+  background-position:0 0;
+}
+.icon-techconnect {
+  background-position: -44px 0;
+}
+.icon-schomberg {
+  background-position: -88px 0;
+}
+
+/* styleguide-specific styles */
+.sub_brand .icon-subbrand{
+  display:inline-block;
+  margin: 0 60px 0 25px;
+}
+
+/******** Social Media Icons ********/
+.social_media {
+  list-style-type: none;
+  padding:0;
+  display:inline-block;
+  vertical-align: top;
+  margin:0;
+}
+.social_media li {
+  background:#9c9c9c;
+  padding:16px 20px;
+  color:#4b4b4b;
+  font-family:'Kievit-Medium', sans-serif;
+  font-weight:500;
+  font-size:13px;
+}
+.social_media li.facebook {
+  background: #2799c5;
+  color:#fff;
+}
+.icon-social {
+  display:inline-block;
+  background:url(../img/icons-social.png) no-repeat;
+  width:23px;
+  height:25px;
+  vertical-align: middle;
+  margin-right:8px;
+}
+.icon-facebook {
+  background-position:0 0;
+}
+.icon-twitter {
+  background-position:-23px 0;
+}
+.icon-pinterest {
+  background-position:-46px 0;
+}
+.icon-tumblr {
+  background-position:-69px 0;
+}
+.icon-more {
+  background:url(../img/ellipsis_white.png) no-repeat;
+  display:block;
+  width:21px;
+  height:5px;
+  margin:auto;
+  cursor:pointer;
+}

@@ -1,0 +1,37 @@
+/******** Image Treatments ********/
+.image_treatments {
+  margin-top:-84px;
+  margin-right:-80px;
+}
+.image_treatments.full > img {
+  margin-bottom:-4px;
+}
+.image_treatments.full {
+  margin-bottom:80px;
+}
+.image_treatments.half {
+  margin:0;
+  vertical-align: middle !important;
+}
+.image_treatments .sm_circle, .image_treatments .med_circle, .image_treatments .content_label {
+  display:inline-block;
+  vertical-align: middle;
+}
+.med_circle {
+  width:88px;
+  height:88px;
+  border-radius:44px;
+}
+.sm_circle {
+  width:44px;
+  height:44px;
+  border-radius:22px;
+}
+.med_circle+span, .sm_circle+span {
+  display:inline-block;
+  vertical-align: middle;
+  color:#000;
+  font-family: "Kievit-Medium", sans-serif;
+  font-size:12px;
+  margin-left:18px;
+}
